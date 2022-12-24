@@ -1,0 +1,243 @@
+/* SNS ボタン */
+
+.btn-twitter {
+    display: inline-block;
+    background: #1a8cd8; /* 背景色 */
+    color: #fff; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+}
+
+.btn-twitter:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/twitter.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+    
+}
+
+.btn-mail {
+    display: inline-block;
+    background: #8ddbf3; /* 背景色 */
+    color: black; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+}
+
+.btn-mail:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/mail.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-site {
+    display: inline-block;
+    background: #c5ccd1; /* 背景色 */
+    color: black; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+}
+
+.btn-site:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/site.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-listen {
+    display: inline-block;
+    background: #ff9100; /* 背景色 */
+    color: black; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+    display: inline-block;
+}
+
+.btn-listen:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/link.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-apple {
+    display: inline-block;
+    background: #fa3852; /* 背景色 */
+    color: white; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+    display: inline-block;
+}
+
+.btn-apple:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/apple.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-google {
+    display: inline-block;
+    background: #cccccc; /* 背景色 */
+    color: black; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+    display: inline-block;
+}
+
+.btn-google:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/google.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-spotify {
+    display: inline-block;
+    background: #1fdf64; /* 背景色 */
+    color: black; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+    display: inline-block;
+}
+
+.btn-spotify:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/spotify.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-rss {
+    display: inline-block;
+    background: #fa9c39; /* 背景色 */
+    color: black; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+    display: inline-block;
+}
+
+.btn-rss:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/rss.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-youtube {
+    display: inline-block;
+    background: #fa0000; /* 背景色 */
+    color: white; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+    display: inline-block;
+}
+
+.btn-youtube:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/youtube.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-nicovideo {
+    display: inline-block;
+    background: #bdbdbd; /* 背景色 */
+    color: white; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-radius: 30px; /* 角を丸くする */
+    display: inline-block;
+}
+
+.btn-nicovideo:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/nicovideo.png") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn-tag {
+    display: inline-block;
+    background: white; /* 背景色 */
+    color: #1a8cd8; /* 文字色 */
+    /* padding: 25px 40px; /* 上下の余白、左右の余白 */
+    text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+    border-color: #1a8cd8;
+    border: 1.5px solid;
+    border-radius: 30px; /* 角を丸くする */
+}
+
+.btn-tag:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: -3px 5px 0 0;
+    background: url("/assets/img/hash.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+    
+}

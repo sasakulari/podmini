@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    {% include header_tags.html %}
+</head>
+
+<body>
+    {% include navigation.html %}
+    <div class="container">
+        <div class="cover-container">
+            <div class="row gx-5">
+                <div class="col-lg-4 float-md-start text-center">
+                    <img src="/assets/user/artworks/{{ page.t_artwork }}" alt="" class="p-4 shadow-sm" style="object-fit: cover; border-radius: 10px" width="300px">
+                </div>
+                <div class="col-lg-8 p-4">
+                    <h2>{{ page.title }}</h2>
+                    <h4 class="text-black-50">Episode: {{ page.t_episode }}</h4>
+                    <p>{{ page.t_personality }}</p>
+                    <audio src="/assets/user/audio/{{ page.t_audio_path }}" controls></audio>
+                    <hr>
+                    <p>{{ page.t_description }}</p>
+                    <hr>
+                    <div class="list-group-horizontal p-2">
+                        {% if page.t_mail %}
+                        <a href="mailto:{{ page.t_mail }}" class="px-3 py-2 btn-mail">Mail</a>
+                        {% endif %}
+                        {% if page.t_site %}
+                        <a href="{{ page.t_site }}" class="px-3 py-2 btn-site">WebSite</a>
+                        {% endif %}
+                        {% if page.t_twitter %}
+                        <a href="https://twitter.com/{{ page.t_twitter }}" class="px-3 py-2 btn-twitter">@{{ page.t_twitter }}</a>
+                        {% endif %}
+                        {% if page.t_rss %}
+                        <a href="{{ page.t_rss }}" class="px-3 py-2 btn-rss">RSS</a>
+                        {% endif %}
+                    </div>
+                    <div class="list-group-horizontal p-2">
+                        {% if page.t_apple %}
+                        <a href="{{ page.t_apple }}" class="px-3 py-2 btn-apple">Apple Podcast</a>
+                        {% endif %}
+                        {% if page.t_spotify %}
+                        <a href="{{ page.t_spotify }}" class="px-3 py-2 btn-spotify">Spotify</a>
+                        {% endif %}
+                        {% if page.t_google %}
+                        <a href="{{ page.t_google }}" class="px-3 py-2 btn-google">Google Podcast</a>
+                        {% endif %}
+                    </div>
+                    <div class="list-group-horizontal p-2">
+                        {% if page.t_youtube %}
+                        <a href="{{ page.t_youtube }}" class="px-3 py-2 btn-youtube">YouTube</a>
+                        {% endif %}
+                        {% if page.t_nicovideo %}
+                        <a href="{{ page.t_nicovideo }}" class="px-3 py-2 btn-nicovideo">ニコニコ動画</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <hr>
+                {{ content }}
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <footer class="mt-auto text-center text-black-50">
+        <p>(C)2022 Sasakulab, サイト上の画像・イラスト・文言はすべて各クリエイターの著作物です。</p>
+    </footer>
+</body>
+
+</html>
